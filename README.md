@@ -1,4 +1,5 @@
-# Github oficial do canal [Carteira Rica] ('https://www.youtube.com/c/CarteiraRica-oficial')
+# Github oficial do canal
+[Carteira Rica] ('https://www.youtube.com/c/CarteiraRica-oficial')
 
 Vídeos da playlist de Machine Learning para Finanças:
 1. [Por que usar Python (tutoriais e como instalar)]('https://youtu.be/WpvCJACGew4')
