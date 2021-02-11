@@ -7,3 +7,4 @@ services:
       - "8501:8501"
     volumes:
       - "./src:/usr/src/app/src"
+      - "./data:/usr/src/app/data"
