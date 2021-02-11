@@ -5,10 +5,10 @@ from datetime import date
 import matplotlib.pyplot as plt
 
 # Importação de dados
-simbolos = pd.read_pickle('/data/simbolos')
-brasil = pd.read_pickle('/data/brasil')
-nas = pd.read_pickle('/data/nasdaq')
-sp = pd.read_pickle('/data/spx')
+simbolos = pd.read_pickle('data/simbolos')
+brasil = pd.read_pickle('data/brasil')
+nas = pd.read_pickle('data/nasdaq')
+sp = pd.read_pickle('data/spx')
 
 
 # Funções

@@ -2,9 +2,9 @@ version: "3"
 services:
   streamlit:
     build: .
-    command: "streamlit run src/ipo.py"
+    #command: "streamlit run src/ipo.py"
+    command: 'cat src/data/simbolos'
     ports:
       - "8501:8501"
     volumes:
-      - "./src:/src"
-      - "./src/data:/data"
+      - "./src:"
