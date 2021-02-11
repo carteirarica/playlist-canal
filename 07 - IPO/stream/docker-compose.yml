@@ -1,9 +1,9 @@
 version: "3"
 services:
-  streamlit:
+  streamlot:
     build: .
     command: "streamlit run src/ipo.py"
     ports:
       - "8501:8501"
     volumes:
-      - "./src"
+      - "./src:/usr/src"

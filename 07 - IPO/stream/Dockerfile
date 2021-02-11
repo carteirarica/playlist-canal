@@ -2,7 +2,7 @@ FROM python:3.7
 
 EXPOSE 8501
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/
 
 COPY requirements.txt ./
 
