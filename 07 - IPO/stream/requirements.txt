@@ -1,0 +1,4 @@
+matplotlib
+pickle5
+pandas
+streamlit
