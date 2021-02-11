@@ -2,7 +2,7 @@ version: "3"
 services:
   streamlat:
     build: .
-    command: "streamlit run src/ipo.py"
+    command: "streamlit run /usr/src/ipo.py"
     ports:
       - "8501:8501"
     volumes:
