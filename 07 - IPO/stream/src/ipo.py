@@ -5,12 +5,6 @@ from datetime import date
 import matplotlib.pyplot as plt
 
 
-import os
-files = [f for f in os.listdir('.')]
-for f in files:
-    st.write(f)
-
-
 # Importação de dados
 simbolos = pd.read_pickle('data/simbolos')
 brasil = pd.read_pickle('data/brasil')
